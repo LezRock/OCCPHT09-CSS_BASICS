@@ -1,0 +1,63 @@
+/* Universal Selector */
+*{
+    color: magenta;
+    font-size: 35px;
+}
+/* Element Selector */
+span {
+    color: red;
+}
+/* Class Selector */
+.class-name {
+    color: green;
+}
+/* ID Selector */
+#id-name{
+    color: blue;
+}
+/* Attribute Selector */
+a[href] {
+    color: pink;
+}
+/* Specific Attribute Selector */
+a[href^='www.sample.com'] { 
+    color: orange;
+}
+/* Group Selector */
+h1, .parag, h2, p{
+    color: yellow;
+}
+/* Descendant Selector */
+.ancestor h3, p {
+    color: brown;
+}
+
+.ancestor p[class="second"]{
+    color: #23e5ff;
+}
+/* Pseudo-classes */
+button:hover{
+    color: blue;
+}
+
+a[href="https://www.example.com"]:visited {
+    color: blanchedalmond;
+}
+/* Pseudo-elements */
+#pseudo-element::before {
+    content: "This is a test. ";
+    color: black;
+}
+
+#pseudo-element::after {
+    content: "This is a test. ";
+    color: black;
+}
+
+#pseudo-element::first-letter{
+    color: rgb(252, 10, 10);
+}
+
+
+
+

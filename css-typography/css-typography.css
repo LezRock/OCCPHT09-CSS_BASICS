@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+/* Changes font family and font size */
+.font-family-size {
+    font-family: "Playwrite CU", cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+/* Changes font weight to bold */
+.bold {
+    font-weight: bold;  
+}
+
+/* Changes font style to italic */
+.italic {
+    font-style: italic;
+}
+
+/* Adds an underline */
+.underline {
+    text-decoration: underline;
+}
+
+/* Centers text */
+.center-align {
+    text-align: center;
+    /* text-align: left; */
+}
+
+/* Adds line through */
+.line-through {
+    text-decoration: line-through;
+}
+
+/* Sets line height */
+.line-height {
+    line-height: 5;
+}
+
+/* Sets letter spacing */
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+/* Sets word spacing */
+.word-spacing {
+    word-spacing: 15px;
+}
+
+
+/* Adds text shadow */
+.text-shadow {
+    /* first: horizontal offset */
+    /* second: vertical offset */
+    /* third: blur radius of the shadow */
+    text-shadow: 5px 2px 2px #ff8800;
+}
+
+/* Text transform */
+.text-transform {
+    text-transform: uppercase;
+}
+
+/* text-indent */
+.text-indent {
+    text-indent: 10px;
+}
+
+/* text overflow */
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px; /
+}

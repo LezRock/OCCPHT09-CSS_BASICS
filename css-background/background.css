@@ -1,0 +1,28 @@
+.color-example {
+    color: rgba(0, 0, 255, 50%);
+}
+
+.background-color{
+    background-color: aqua;
+}
+
+.background-image{
+    background-image: url(bg.jpg);
+    height: 420px;
+    width: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.image-sizing-example {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgba(255, 0, 0, 0.315);
+}
